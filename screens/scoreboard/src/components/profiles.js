@@ -20,11 +20,8 @@ function Item(data){
             
                             <div className="info">
                                 <h3 className='name text-dark'>{value.name}</h3>    
-                                <span>{value.location}</span>
+                                <p className='score-value'>{value.score}</p>
                             </div>                
-                        </div>
-                        <div className="item">
-                            <span>{value.score}</span>
                         </div>
                     </div>
                     )
