@@ -1,0 +1,52 @@
+/* FILEPATH: /c:/Users/daiwi/OneDrive/Documents/3Rd Sem/projects/PESUguessr/screens/client/src/pages/signup.css */
+
+/* Copy the contents of login.css and make modifications for signup page */
+
+/* Styles for the signup form container */
+
+
+/* Styles for the signup form */
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center
+}
+
+/* Styles for the form inputs */
+.signup-form input {
+  width: 300px;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border:transparent;
+  border-radius: 5px;
+  background-color: #333; /* Set the background color to a darker shade */
+  color: #fff;
+}
+
+/* Styles for the submit button */
+
+.signup-form label{
+  margin-bottom: 10px;
+  font-weight: bold;
+  display: block;
+  text-align: left;
+}
+.signup-form button {
+  text-align: center;
+  width: 100px;
+  padding: 10px;
+  background-color: #19c346;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2); 
+}
+
+/* Styles for the error message */
+.signup-form .error-message {
+  color: red;
+  margin-bottom: 10px;
+}
