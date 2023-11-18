@@ -1,0 +1,34 @@
+.game-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.game-controls{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(360deg, rgba(0, 0, 0, 1) 0%, rgba(101, 50, 177, 1) 57%,
+      rgba(126, 9, 238, 1) 90%);
+}
+
+.score{
+    padding-bottom: 20px;
+    color: white;
+    background-color: black;
+}
+
+.button{
+    border-radius: 30px;
+}
+
+.textbox{
+    border-radius: 30px;
+}
