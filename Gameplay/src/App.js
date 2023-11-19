@@ -18,7 +18,7 @@ const correctAnswers = {
   [GJBC]: 'gjb canteen',
   [OAT]: 'oat',
   [MRD]: 'mrd',
-  [Panini]: 'f block',
+  [Panini]: 'bharghavs',
   [PR_Square]: 'pr cube',
   // Add correct answers for more images
 };
