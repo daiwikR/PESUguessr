@@ -7,14 +7,19 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "vite"
   },
   "dependencies": {
     "axios": "^1.6.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.1",
-    "react-router-dom": "^6.19.0"
+    "react-photo-sphere-viewer": "^3.4.0-psv5.4.0",
+    "react-router-dom": "^6.19.0",
+    "react-scripts": "^5.0.1",
+    "start": "^5.1.0",
+    "web-vitals": "^3.5.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
