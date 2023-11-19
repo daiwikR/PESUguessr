@@ -69,9 +69,20 @@
     align-items: center;
     gap: 1em;
 }
-#profile .flex .item .score-value{
-    text-align: center;
+#profile .flex .item .name{
+    font-size: 1.5em;
+    font-weight: 500;
+    color: var(--color-light);
 }
+
+#profile .flex .item .score-value{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 1em;
+    color:#F3F3F2;
+}
+
 #profile .flex img{
     width: 10%;
     border-radius: 50%;
@@ -79,6 +90,7 @@
 
 #profile .flex .info{
    padding: 1em;
+
 }
 
 .text-dark{

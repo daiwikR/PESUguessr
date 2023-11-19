@@ -5,8 +5,8 @@ body,html{
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 3000px; /* Used to enable scrolling */
-  background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+  background: rgb(70,100,151);
+  background: linear-gradient(180deg, rgba(70,100,151,1) 0%, rgba(26,26,46,1) 85%, rgba(26,26,46,1) 100%);
 }
 
 code {
