@@ -4,7 +4,6 @@ import Navbar from '../src/components/Navbar';
 import Home from '../src/pages/Home';
 import Signup from '../src/pages/Signup';
 import Login from '../src/pages/Login';
-import Gameplay from '../src/pages/Gameplay';
 import axios from 'axios'
 import {Toaster} from 'react-hot-toast'
 
@@ -17,12 +16,10 @@ function App() {
     <Navbar/>
     <Toaster position='bottom-right' toastOptions={{duration: 2000}}/>
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/signup" element={<Signup />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/gameplay" element={<Gameplay />} />
+      <Route path="/" element={<Home/>}/>
+      <Route path="/signup" element={<Signup/>}/>
+      <Route path="/login" element={<Login/>}/>
     </Routes>
-
     </>
   )
 }

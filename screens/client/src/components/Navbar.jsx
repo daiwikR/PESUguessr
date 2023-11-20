@@ -10,8 +10,6 @@ export default function Navbar() {
         <Link to="/signup">Sign-Up</Link>
         <span>|</span>
         <Link to="/login">Login</Link>
-        <span>|</span>
-        <Link to="/gameplay">Play Now</Link>
     </nav>
     </div>
   )
