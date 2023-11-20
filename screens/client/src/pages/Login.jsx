@@ -23,7 +23,7 @@ export default function Login() {
       else{
         setData({email:'',password:''})
         //navigate to the game page after login
-        navigate('/')
+        navigate('/gameplay')
         toast.success(data.message)
       }
   }

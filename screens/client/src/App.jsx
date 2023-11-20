@@ -6,8 +6,10 @@ import Signup from '../src/pages/Signup';
 import Login from '../src/pages/Login';
 import axios from 'axios'
 import {Toaster} from 'react-hot-toast'
+import Gameplay from '../src/pages/Gameplay'
 
-axios.defaults.baseURL = 'http://localhost:8000'
+
+axios.defaults.baseURL = 'http://localhost:8001'
 axios.defaults.withCredentials = true
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
       <Route path="/" element={<Home/>}/>
       <Route path="/signup" element={<Signup/>}/>
       <Route path="/login" element={<Login/>}/>
+      <Route path="/gameplay" element={<Gameplay/>}/>
     </Routes>
     </>
   )
