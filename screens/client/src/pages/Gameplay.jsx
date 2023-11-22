@@ -24,9 +24,9 @@ export default function Gameplay() {
         [GJBC]: 'gjb canteen',
         [OAT]: 'oat',
         [MRD]: 'mrd',
-        [Panini]: 'f block',
+        [Panini]: 'bhargav',
         [GYM]: 'gym',
-        [PR_Square]: 'pr cube',
+        [PR_Square]: 'pi r cube',
     };
 
     const getRandomImage = () => {
@@ -88,7 +88,7 @@ export default function Gameplay() {
                 src={currentImage}
                 littlePlanet={true}
                 height={'90vh'}
-                width={'90%'}
+                width={'100%'}
             />
 
             <div className="game-controls">
@@ -114,7 +114,7 @@ export default function Gameplay() {
             </div>
         );
     
-};
+}
 
 
 

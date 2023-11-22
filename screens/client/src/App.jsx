@@ -1,12 +1,15 @@
 import './App.css'
-import {Routes, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Route , Routes } from "react-router-dom"
 import Navbar from '../src/components/Navbar';
-import Home from '../src/pages/Home';
 import Signup from '../src/pages/Signup';
 import Login from '../src/pages/Login';
 import axios from 'axios'
 import {Toaster} from 'react-hot-toast'
 import Gameplay from '../src/pages/Gameplay'
+import Home from '../src/pages/Home'
+import Footer from '../src/components/Footer'
+
+
 
 
 axios.defaults.baseURL = 'http://localhost:8001'
@@ -23,7 +26,9 @@ function App() {
       <Route path="/login" element={<Login/>}/>
       <Route path="/gameplay" element={<Gameplay/>}/>
     </Routes>
+    <Footer/>
     </>
+
   )
 }
 
